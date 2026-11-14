@@ -1,15 +1,5 @@
-# 坐标与聚类
+# flagaze
 
-从原坐标分析程序中整理出的独立工具，合并重复目录。
+项目目的、文件说明和运行过程见 [中文说明](../README.md)。
 
-- `coordinates.py`：厘米、毫米与屏幕像素的转换，四种屏幕方向。
-- `clusters.py`：DBSCAN 和有效聚类的轮廓系数；全噪声或单簇时返回 `None`。
-- `demo.py`：固定随机种子生成合成点并绘制聚类图。
-
-```sh
-python -m gaze.demo
-```
-
-所有示例点均由随机生成器产生，没有读取、替换、抽样或扰动真实记录。没有身份映射表、分组标签、原始视频、照片、轨迹表或模型权重。
-
-此目录不包含摄像头估计模型，也不是医学评估程序。公开版本验证的是坐标与聚类功能，不能替代原采集系统。
+See the [English guide](../README.en.md) for purpose, file responsibilities and execution flow.
